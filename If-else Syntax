@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    
+    <h1>DEMO JS</h1>
+    
+    <!-- <script src="main.js"> -->
+       <script> 
+    
+    //Control Flow Statements in JAVASCRIPT
+    var time=prompt("what's the time ? ");
+    if(time>5 && time<12)
+    alert("Good Morning");
+    else if(time>12 && time<14)
+    alert("Good Afternoon");
+    else if(time>14 && time<17)
+    alert("Good Evening");
+    else
+    alert("Good Night");
+    
+
+    document.write ("<br>");
+
+    
+
+  
+
+    </script>
+</body>
+</html>
