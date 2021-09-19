@@ -1,0 +1,28 @@
+//LOOPS in JAVASCRIPT
+    
+    //for..in loop statement
+
+    //OBJECT
+    let animal = {
+        name: "Dog",
+        leg: 4,
+        color:"white",
+    };
+
+    for(let k in animal){
+        document.write(k+ " :" ,animal[k] +"<br>");
+    }
+    document.write(animal.name + "<br>");   //how to traverse objects :part 1
+    document.write(animal["leg"] + "<br>");             //how to traverse objects: part 2
+
+
+    //ARRAYS
+
+    let names=["sanju" , "sejal ", "sanjeevani", "sam" ];
+    for (let i in names){
+      //  document.write(names[i] +"<br>");   
+        document.write(i ," : " ,names[i] +"<br>");   
+    }
+    document.write(names[1]); 
+    
+  
