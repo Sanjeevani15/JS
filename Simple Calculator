@@ -1,0 +1,33 @@
+<script> 
+    
+    //Control Flow Statements in JAVASCRIPT
+    //switch statement
+    let a=parseInt(prompt("Enter a number : "));   //if we don''t use parseInt , values will be treated as string'
+    let b=parseInt(prompt("Enter a number : "));
+  
+    // let b=prompt("Enter a number : ");
+    let op=prompt("Enter an operator : ");
+    let sum=a+b;
+    switch(op)
+    {
+        case '+': document.write(a + b);break;  
+        //case '+': document.write(`${a}+${b}`);break;     //alternate for sum 
+      
+        case '-': document.write(a - b);break;
+      
+      //  case '*': document.write(+a * +b);break;
+        case '*': document.write(a*b) ;break;
+      
+        case '/': document.write(a / b);break;
+     
+        case '%': document.write(a % b);break;
+     
+        default: document.write("Invalid Operator");break;
+    }
+    document.write ("<br>");
+
+    
+
+  
+
+    </script>
