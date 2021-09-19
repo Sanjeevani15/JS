@@ -3,6 +3,18 @@
     //for..of loop statement
 
     //STRINGS
+    
+    //one element one line
+    let lang = "JavaScript";
+    for (let x of lang) {
+    document.write(x , "<br>");
+    }
+    
+    
+    
+    
+    
+    //add one element ine evry line
     let lang = "JavaScript";
     let text = "";
     for (let x of lang) {
@@ -16,5 +28,8 @@
        document.write(i +"<br>");   
        
     }
+    
+    
+    
   
     
