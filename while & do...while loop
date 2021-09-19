@@ -1,0 +1,22 @@
+//LOOPS in JAVASCRIPT
+    
+    //while loop statement
+    
+    var i=12;
+    while(i--)
+    {
+        document.write("hello <br>");
+        if(i==0)
+        break;
+    }
+
+
+      //do.....while loop statement
+    
+      var i=4;
+      do{
+          document.write("Will execute surely... <br>");
+            i++;
+      }while(i<10);
+
+    
