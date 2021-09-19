@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    
+    <h1>DEMO JS</h1>
+    
+    <!-- <script src="main.js"> -->
+      <script> 
+      var num=5;
+      document.write(typeof(num)+ "\n\n");
+
+      var n="5";
+      document.write(typeof(n)+ "\n\n");
+      
+      var bool=true;
+      document.write(typeof(bool)+ "\n\n");
+      
+      var myvar;
+      document.write(typeof(myvar)+ "\n\n");
+
+      var myvar=null;
+      document.write(typeof(myvar)+ "\n\n");
+
+     // -----------------------------------------
+
+      var num1=56789034567n;  //here n in the  number specifies that this is a type of big int 
+      //genrally used to display big integer number
+      document.write(typeof(num1)+ "\n\n");
+      
+
+
+
+    </script>
+</body>
+</html>
