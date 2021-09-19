@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    
+    <h1>DEMO JS</h1>
+    <button onclick="hello()">First BUTTON </button>
+    <p>Second BUTTON </p>
+
+    <button onclick="roll()" id="b1"> Roll No . 1 : ASHTON</button>
+
+    <!-- <script src="index.js"> -->
+    <script>
+    
+function hello()
+{
+    alert("Hello world");
+}
+
+let a = document.querySelector("p");
+a.addEventListener('click',hey);
+
+function hey()
+{
+    alert("Hello DUNIYA");
+}
+function roll(){
+    let c=prompt("Enter the name : ");
+let b=document.getElementById("b1");
+// b.innerHTML=`Roll No . 1 : ${c}`;
+b.textContent = "Roll No . 1 : " + c;
+//b.innerHTML='Roll No . 1 : ' + c;
+
+
+}
+       
+    </script>
+</body>
+</html>
