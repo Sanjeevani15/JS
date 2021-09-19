@@ -1,0 +1,20 @@
+ //LOOPS in JAVASCRIPT
+    
+    //for..of loop statement
+
+    //STRINGS
+    let lang = "JavaScript";
+    let text = "";
+    for (let x of lang) {
+    document.write(text += x , "<br>");
+    }
+    
+    //ARRAYS
+
+    let names=["sanju" , "sejal ", "sanjeevani", "sam" ];
+    for (let i of names){
+       document.write(i +"<br>");   
+       
+    }
+  
+    
