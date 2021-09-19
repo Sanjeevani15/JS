@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    
+    <h1>DEMO JS</h1>
+    
+    <!-- <script src="main.js"> -->
+       <script> 
+    //Operators in JAVASCRIPT
+    
+    //modulo operator
+    var x=52 , y=10;
+    x=x%y;
+    document.write(x);
+
+    //exponential operator
+    var a=10,b=2;
+    a=a**b;
+    document.write("\n" + a +" \n");
+
+    document.write ("<br>");
+
+    //change string to number
+    var s="15";
+    document.write(typeof(s) + "\n");
+    s=+s;
+    document.write(typeof(s)+"\n");
+
+
+    //string concatenation
+    let num1="sanjeevani";
+    let num2=" bhandari";
+    document.write(num1+num2);
+
+
+
+    var i= 4,j=6;                          //increment operator  (post and pre)
+    document.write(" "+ i++ ," ", ++j);  
+
+
+
+    var z= (4=="4")                          //equality operator 
+    document.write(" "+ z);  
+  
+    z= (4==="4")                           //equality operator 
+    document.write(" "+ z);  
+
+    z= (4 !="4")                           //not equal
+    document.write(" "+ z);  
+
+    z= (4 !=="4")                            //not equal to 
+    document.write(" "+ z);  
+
+    z= (5 >= 5)                            //not equal to 
+    document.write(" "+ z);
+
+
+  
+
+    </script>
+</body>
+</html>
