@@ -1,0 +1,24 @@
+//FUNCTIONS in JAVASCRIPT
+
+let c=  document.querySelector("button");
+    c.addEventListener('click',whatTime);
+
+   function whatTime(){
+    let d= Date();
+    alert(d);
+
+   }
+
+//    whatTime();
+
+let s=  document.getElementById("b2");
+    s.addEventListener('click',add);
+
+function add(x,y)
+{
+    var a=parseInt(prompt("Enter number : "));
+    var b=parseInt(prompt("Enter number : "));
+    alert("sum is : " + (a+b));
+
+   
+}
