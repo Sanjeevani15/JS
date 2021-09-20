@@ -1,0 +1,66 @@
+ 
+//  STRINGS in JAVASCRIPT
+    let n="sanjeevani";
+    document.write(n+"<br>");
+    let str='You\'ve been pretty confused';   //escape characters
+    let str1="Now , I've understood";
+    document.write(str+"<br>");
+    document.write(str1+"<br>");
+    
+
+    //string concatenation
+    document.write(n+" "+str1+"<br>");
+
+    //string and number concatenation
+    document.write(n+" "+153+"<br>");
+
+    //string to number;
+    num="15";
+    document.write(typeof(num)+"\n");
+    num=Number(num);
+    document.write(typeof(num)+"\n  <br>");
+
+    //number to string
+    m=19;
+    document.write(typeof(m)+"\n");
+    m=m.toString();
+    document.write(typeof(m)+"<br>");
+
+
+    //template literals
+    let output=m + n +" to this " + num;
+    document.write(output+"<br>");
+    // here we don't need quotes , just write the variales inside ${}
+    document.write(`${m+n} what's id goinf on${num} <br>`);   
+
+
+    //methods of STRINGS
+
+    //lengtth of string
+    let show="my fav. show is The Originals";
+    document.write(`${show} : ${show.length}<br>`);    //using template string 
+    document.write(show , " and " + show.length , "<br>"); 
+    
+    //index in string
+    document.write(show.charAt(4)+"<br>");
+    document.write(show[9]+"<br>");    //another method
+    document.write(show[show.length-1]+"<br>"); //last index 
+
+    //find index of an element
+    document.write(show.indexOf("is")+"<br>"); 
+    document.write(show.indexOf(".")+"<br>");
+     
+    //slice of a string
+    document.write(show.slice(20, 24)+"<br>");
+    document.write(show.slice(9)+"<br>");
+    document.write(show.slice(0,5)+"<br>");
+
+    //convert ii into uppercase
+    let hob="dancing";
+    document.write(hob.toUpperCase()+"<br>");
+
+    let ho2="READNinfFD";
+    document.write(ho2.toLowerCase());
+     
+
+  
